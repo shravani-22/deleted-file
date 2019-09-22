@@ -1,0 +1,16 @@
+#include<stdio.h>
+void main()
+{
+    int fact=1,n;
+    printf("enter number");
+    scanf("%d",&n);
+    if(n<0)
+    printf("invalid input");
+    else
+    {
+    for(int i=1;i<=n;i++)
+     fact=fact*i;
+    printf("fact of %d is %d",n,fact);
+    }
+    
+}
