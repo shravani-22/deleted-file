@@ -1,0 +1,16 @@
+#include<stdio.h>
+void main()
+{
+    int a=0,b=1,c=1,n;
+    printf("enter number");
+    scanf("%d",&n);
+    printf("0\t1\t");
+    while(c<=n)
+    {
+        printf("%d\t",c);
+        a=b;
+        b=c;
+        c=a+b;
+    }
+    
+}
